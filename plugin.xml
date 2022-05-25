@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/shopware/shopware/5.3/engine/Shopware/Components/Plugin/schema/plugin.xsd">
+
+    <label lang="de">TheCodeBunny Luumi Theme</label>
+    <label lang="en">TheCodeBunny Luumi Theme</label>
+    <version>0.1.0</version>
+    <description>
+
+    </description>
+
+    <compatibility minVersion="5.3.0"/>
+    <author>TheCodeBunny - eCommerce Expert</author>
+    <copyright>Copyright (c) 2022, TheCodebunny</copyright>
+    <license>GNU GPLv3</license>
+    <link>http://www.hemangvyas.com</link>
+</plugin>
