@@ -1,6 +1,6 @@
 <?php
 
-namespace Shopware\Themes\Splendor;
+namespace Shopware\Themes\TcbLuumi;
 
 use Shopware\Components\Form as Form;
 
@@ -12,7 +12,7 @@ class Theme extends \Shopware\Components\Theme
 
     protected $name = <<<'SHOPWARE_EOD'
 
-SPLENDOR
+TheCodeBunny Luumi
 
 SHOPWARE_EOD;
 
