@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="c6cfa5e5-6888-41aa-b3ba-42338dc7aae2" name="Shopware5">
+        <fileTransfer rootFolder="/var/www/shopware/custom/plugins/TcbLuumi" accessType="SFTP" host="139.59.140.74" port="22" sshConfigId="51a426cd-4d01-4024-add3-6e4a7e08b3a0" sshConfig="root@139.59.140.74:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

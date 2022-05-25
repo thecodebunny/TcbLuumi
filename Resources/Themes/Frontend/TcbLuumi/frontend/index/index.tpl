@@ -1,12 +1,9 @@
-{extends file="parent:frontend/index/index.tpl"}
+{extends file='parent:frontend/index/index.tpl'}
+{block name="frontend_index_page_wrap"}
+    {$smarty.block.parent}
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+{/block}
 
-{* move main navigation out of container *}
-{block name='frontend_index_navigation_categories_top'}{/block}
-
-{block name='frontend_index_header_container_inner'}
-	{$smarty.block.parent}
-
-	<div class="wsmenu-border-wrapper">
-		{include file='frontend/index/main-navigation.tpl'}
-	</div>
-{/block}                                     
+{block name='frontend_index_container_ajax_cart'}
+    <div class="container--ajax-cart" data-collapse-cart="true"{if $theme.offcanvasCart} data-displayMode=""{/if}></div>
+{/block}
